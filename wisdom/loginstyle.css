@@ -1,0 +1,84 @@
+body {
+    font-family: 'Cenzel Decorative', cursor ;
+    background: url('pics/book6.jpg');
+    background-size: cover;
+}
+form {
+    border: 3px solid #f1f1f1;
+    background: #ddd
+}
+
+.loginpage{
+width: 50%;
+padding: 30px;
+padding-top: 100px;
+margin: 0 auto;
+
+}
+
+
+input[type=text], input[type=password] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    
+    box-sizing: border-box;
+}
+
+button {
+    background-color: #0A0E19;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+}
+
+button:hover {
+    opacity: 0.7;
+}
+
+
+.container {
+    padding: 16px;
+
+}
+
+
+#message {
+    display:none;
+    background: #f1f1f1;
+    color: #000;
+    position: relative;
+    padding: 20px;
+    margin-top: 10px;
+}
+
+#message p {
+    padding: 10px 35px;
+    font-size: 18px;
+}
+
+/* Add a green text color and a checkmark when the requirements are right */
+.valid {
+    color: green;
+}
+
+.valid:before {
+    position: relative;
+    left: -35px;
+    content: "✔";
+}
+
+/* Add a red text color and an "x" when the requirements are wrong */
+.invalid {
+    color: red;
+}
+
+.invalid:before {
+    position: relative;
+    left: -35px;
+    content: "✖";
+}

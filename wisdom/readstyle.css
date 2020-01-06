@@ -1,0 +1,102 @@
+body{
+	text-align: center; 
+	background-color: #040c0e ; 
+	color: #be9063;
+	font-family: 'Cinzel Decorative';
+}
+
+.button1{
+
+    background-color: #be9063; 
+    border: none;
+    color: #132226;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+   
+}
+
+
+.button1:hover {
+	opacity: 0.5;
+    border: 2px;
+   
+}
+
+.div1{
+	width: 50%; 
+	height:800px; 
+	margin: auto;  
+}
+ul.topnav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #132226;
+    font-family: 'Merienda',cursive;
+}
+
+ul.topnav li {float: left;}
+
+ul.topnav li a {
+    display: block;
+    color: #be9063;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+ul.topnav li a:hover:not(.active) {background-color: #132226; color:#be9063 }
+
+ul.topnav li.right {float: right;}
+
+@media screen and (max-width:600px) {
+    div.div1{
+    	width: 100%;
+    }
+    .navbar a {
+        float: none;
+        width: 100%;
+    }
+}
+}
+
+#message {
+    display:none;
+    background: #f1f1f1;
+    color: #000;
+    position: relative;
+    padding: 20px;
+    margin-top: 10px;
+}
+
+#message p {
+    padding: 10px 35px;
+    font-size: 18px;
+}
+
+/* Add a green text color and a checkmark when the requirements are right */
+.valid {
+    color: green;
+}
+
+.valid:before {
+    position: relative;
+    left: -35px;
+    content: "✔";
+}
+
+/* Add a red text color and an "x" when the requirements are wrong */
+.invalid {
+    color: red;
+}
+
+.invalid:before {
+    position: relative;
+    left: -35px;
+    content: "✖";
+}

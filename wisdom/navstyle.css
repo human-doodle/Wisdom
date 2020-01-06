@@ -1,0 +1,52 @@
+html,body{
+    height: 100%;
+    font-size: 20px;
+    background-color: #040c0e;
+    font-family: 'Cinzel Decorative',cursive;
+}
+
+
+ul.topnav{ 
+position: fixed;
+margin-top: 0; 
+background-color: #040c0e;
+width: 100%;
+list-style-type: none;
+padding: 0px 5px 0px 5px;
+z-index: 1000;
+}
+
+
+ul.topnav li {
+float: left;
+}
+
+ul.topnav li a {
+    display: block;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    color: #be9063;
+    font-size: 20px;
+}
+
+ul.topnav li a:hover:not(.active) 
+    {
+    background-color: #525b56 ;
+    color: white;
+    border-radius: 0px;
+    }
+
+ul.topnav li.right 
+{
+float: right;
+}
+
+
+/* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+@media screen and (max-width:700px) {
+    .column {
+        width: 100%;
+    }
+    ul.topnav li.right,ul.topnav li {float: none;}
+}

@@ -1,0 +1,93 @@
+
+
+.parallax {
+    /* The image used */
+    background-image: url("pics/book5.jpg");
+
+    /* Set a specific height */
+    min-height: 100%;
+    
+
+    /* Create the parallax scrolling effect */
+   background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 50px;
+}
+
+.parallax2{
+     background-image: url("pics/book6.jpg");
+
+    /* Set a specific height */
+    min-height: 200px;
+    
+
+    /* Create the parallax scrolling effect */
+   background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+
+.logo{
+    background: #040c0e;
+    border-radius: 25px;
+    color:#be9063;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    font-size: 50px;
+    font-family: 'Cinzel Decorative', cursive;
+    transform: translate(-50%, -50%);
+    padding: 20PX
+}
+.video{
+
+    padding-top: 100px;
+    padding-left: 150px;
+    padding-right: 150px;
+}
+/*why read books content*/
+.hometext{
+    font-family: 'Merienda', cursive;
+    color: #be9063;
+    padding: 150px;
+}
+/*paratext ie,text in the parallax*/
+.paratext{
+    color:#be9063;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 200px;
+    font-size: 50px;
+    font-family: 'Merienda', cursive;    
+}
+
+.login{
+     background-color: #be9063;
+    color: #040c0e;
+    font-family: 'Cinzel Decorative',cursive;
+    padding: 20px;
+    border-radius: 25px;
+    text-decoration: none;;
+}
+.login:hover {
+background-color: #525b56;
+color: white;
+}
+
+
+
+.footer{
+    font-family: 'Merienda',cursive;
+    text-decoration: none;
+    width: 100%;
+    background-color: black;
+    color: #be9063;
+    padding: 20px;
+    font-size: 20px;
+    text-align: center;
+}
