@@ -53,8 +53,8 @@
 
   	Any thing to share? Feel free to ping us up. Click on the given e-m@il ids. <br><br>
 
-   SHIVANI PAL:  <a href="mailto:shiv040998@gmail.com" style="text-decoration: none; color:#FEECC4;">shiv040998@gmail.com</a><br>
-   SHUBHAM RAI:  <a href="mailto:srai281@gmail.com" style="text-decoration: none; color:#FEECC4;">srai281@gmail.com</a><br><br>
+   SHIVANI PAL:  <a href="mailto:abc" style="text-decoration: none; color:#FEECC4;">---</a><br>
+   SHUBHAM RAI:  <a href="mailto:abc" style="text-decoration: none; color:#FEECC4;">---</a><br><br>
 
 	
 </p>
